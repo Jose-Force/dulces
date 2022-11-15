@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import baner1 from '../../img/Baner1.png'
+import baner2 from '../../img/Baner2.png'
+import baner3 from '../../img/Baner3.png'
 import {
   Carousel,
   CarouselItem,
@@ -10,17 +13,17 @@ import {
 
 const items = [
   {
-    src: 'https://wallpaper.dog/large/5534814.jpg',
+    src : baner1,
+   altText: '',
+    caption: ''
+  },
+  {
+    src: baner2,
     altText: '',
     caption: ''
   },
   {
-    src: 'https://pbs.twimg.com/media/EzsEZEzXEAAZ5e1.jpg',
-    altText: '',
-    caption: ''
-  },
-  {
-    src: 'https://i.ytimg.com/vi/1V6ooaFwrXU/maxresdefault.jpg',
+    src: baner3,
     altText: '',
     caption: ''
   }
