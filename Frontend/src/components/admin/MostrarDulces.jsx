@@ -76,7 +76,7 @@ export default function StickyHeadTable() {
         switch (value) {
 
           case "delete":
-            swal("¡Producto eliminado con exito!", {
+            swal("Producto eliminado con éxito", {
               icon: "success",
               button: false
             });
